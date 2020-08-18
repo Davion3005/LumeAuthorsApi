@@ -6,8 +6,6 @@ use App\Models\Author;
 use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\Schema;
-use const http\Client\Curl\AUTH_ANY;
 
 class AuthorController extends Controller
 {
